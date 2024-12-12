@@ -104,52 +104,8 @@ body{
 .btn2:hover a{
     color: white;
 }
-/* .btn1{
-    height: 40px;
-    width: 150px;
-    background:linear-gradient(167deg,#136C0F,#6ebb6a);
-    color:#f8f7f7;
-    font-weight: 600;
-    border: none;
-    font-size: 15px;
-    letter-spacing: 0.1px;
-    text-align: center;
-    border-radius: 8px;
-    position: relative;
-    box-shadow: 0 2px 5px 0 black;
-    cursor: pointer;
-    
-}
 
-.btn1:hover {
-    color:black;
-    transition-duration: 0.5s;
-    box-shadow: 0 6px 6px 0px #136C0F;
-  }
-
-.btn2{
-    height: 40px;
-    width: 150px;
-    background:linear-gradient(167deg,#00358D,#316ac6);
-    color:#f8f7f7;
-    font-weight: 600;
-    border: none;
-    font-size: 15px;
-    letter-spacing: 0.1px;
-    text-align: center;
-    border-radius: 8px;
-    position: relative;
-    box-shadow: 0 2px 5px 0 black;
-    cursor: pointer;
-}
-
-.btn2:hover {
-    color:black;
-    transition-duration: 0.5s;
-    box-shadow: 0 6px 6px 0px #316ac6;
-  } */
-
-.logo{
+.title{
     font-size: 30px;
     font-weight: 700;
     background:linear-gradient(167deg,#136C0F 25%,#00358D);
@@ -175,6 +131,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
+/* Xbox Pic */
 .xboxpic{
     width: 50px;
     height: 50px;
