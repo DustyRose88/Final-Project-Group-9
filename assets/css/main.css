@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color:#091c27;
+}
+
+
+/* Navigation Bar Section */
+.navbar{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background: #c5c6c3;
+}
+
+.btn1{
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    gap: 10px;
+    border-radius: 50px;
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    color: black;
+    border: 2px solid #136C0F;
+    cursor: pointer;
+} 
+
+.btn1 a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    transition: .2s;
+}
+
+.btn1 i{
+    color: white;
+    font-size: 1.2rem;
+}
+.btn1:hover{
+    background-color: #136C0F;
+}
+
+.btn1:hover a{
+    color: white;
+}
+
+.btn2{
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    gap: 10px;
+    border-radius: 50px;
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    color: black;
+    border: 2px solid #00358D;
+    cursor: pointer;
+} 
+
+.btn2 a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    transition: .5s;
+}
+
+.btn2 i{
+    color: white;
+    font-size: 1.2rem;
+}
+.btn2:hover{
+    background-color: #00358D;
+}
+
+.btn2:hover a{
+    color: white;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    background:linear-gradient(167deg,#136C0F 25%,#00358D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.menu li a{
+    font-size: 17px;
+    padding: 8px;
+    color: #000;
+}
+
+.menu li a:hover{
+    background:linear-gradient(167deg,#136C0F 25%,#00358D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container h1{
+    color:white;
+    padding: 0;
+}

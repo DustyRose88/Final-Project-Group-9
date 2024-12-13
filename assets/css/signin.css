@@ -8,11 +8,11 @@
 }
 
 body{
-    background-color: #000;
-}
+    width: 100%;
+    height: 100%;
+} 
 
-
-/* Navigation Bar Section */
+/* Navation bar */
 .navbar{
     padding: 20px 5%;
     display: flex;
@@ -130,3 +130,5 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* Sign-In Body */

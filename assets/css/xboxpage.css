@@ -143,7 +143,7 @@ body{
 /* Footer Section */
 .main-footer {
   display: flex;
-  background:linear-gradient(167deg,#136C0F 25%,#00358D);
+ background:linear-gradient(167deg,#136C0F 25%,#00358D);
   color: white;
   padding: .25em 0;
 }
