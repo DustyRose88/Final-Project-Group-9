@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #000;
+    background-color: #070606;
 }
 
 
@@ -19,7 +19,6 @@ body{
     justify-content: space-between;
     align-items: center;
     color: #000;
-    position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
@@ -131,8 +130,46 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
-/* Xbox Pic */
-.xboxpic{
-    width: 50px;
-    height: 50px;
+
+.container {
+    width: 100%;
+    color:white;
+    padding-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+/* Footer Section */
+.main-footer {
+  display: flex;
+  background:linear-gradient(167deg,#136C0F 25%,#00358D);
+  color: white;
+  padding: .25em 0;
+}
+.footer-container {
+  margin: 0 auto;
+  align-items: center;
+}
+.text-left {
+  color: white;
+}
+.nav a {
+  display: inline-block;
+  padding: .5em;
+  color:white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #ffffff41;
+}
+
+.footer-nav li{
+  padding: 0 .5em;
+}
+
+.footer-nav img {
+  width: 70px;
+  height: 70px;
 }
