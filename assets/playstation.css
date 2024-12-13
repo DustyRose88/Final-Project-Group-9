@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #00A6FB;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    padding: 20px; 
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
+nav ul li a {
+    display: inline;
+    padding: 0 1.5em;
+}
